@@ -77,5 +77,14 @@
       "Şu an tam direnç bölgesinde, acele edip tepeden atlama. Düzeltmesini bekleyelim.",
       "Listeme aldım, bildirimleri aç beklemede kal!"
     ]
+  },
+  "tarayici_izolasyon_kurali": {
+    "aciklama": "Sosyal medya platformlarinin her biri icin kesinlikle ayri, bagimsiz bir tarayici oturumu (browser subagent) kullanilacaktir.",
+    "platformlar": {
+      "x_twitter": "Ozel X Tarayicisi (Yalnizca X akisi, tweet, mentions, sniper)",
+      "instagram": "Ozel Instagram Tarayicisi (Yalnizca IG bildirimleri, DM ve story)",
+      "facebook": "Ozel Facebook Tarayicisi (Yalnizca FB bildirimleri ve gruplar)"
+    },
+    "sekme_gecis_yasagi": true
   }
 }
