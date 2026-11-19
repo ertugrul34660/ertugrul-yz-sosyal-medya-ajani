@@ -1,5 +1,5 @@
 {
-  "son_guncelleme": "2026-11-19T14:19:04.903100",
+  "son_guncelleme": "2026-11-19T14:29:07.359344",
   "ogrenilen_basliklar": [
     {
       "konu": "Havacılık ve Ulaştırma Sektörü ($THYAO, $PGSUS)",
@@ -33,14 +33,14 @@
       "kalip": "11.800 BIST Konsolidasyonu",
       "detay": "Endeks 11.800 destegi etrafinda yatay dalgalanirken panik satisi yapanlar kaybeder; sektor ve hisse bazli dip donuslerini takip edenler kazanir.",
       "guven_skoru": 0.98,
-      "guncelleme": "2026-11-19 14:19:04"
+      "guncelleme": "2026-11-19 14:29:07"
     },
     {
       "tarih": "2026-11-17 15:26:55",
       "kalip": "Demir Celik Dip Dongusu",
       "detay": "Kuresel emtia ve hurda/cevher fiyatlarinda en kotu donem geride kaldi; EREGL 48.50-52 bandi guclu dip olusumudur.",
       "guven_skoru": 0.92,
-      "guncelleme": "2026-11-19 14:19:04"
+      "guncelleme": "2026-11-19 14:29:07"
     }
   ],
   "kanitlanmis_hisse_seviyeleri": {
@@ -49,28 +49,28 @@
       "hedef_seviye": 329.5,
       "kazanc_orani": "+%9.03",
       "durum": "KAZANC_ALINDI_TAM_ISABET",
-      "kayit_tarihi": "2026-11-19 14:19:04"
+      "kayit_tarihi": "2026-11-19 14:29:07"
     },
     "ASELS": {
       "giris_dip_seviyesi": 60.15,
       "hedef_seviye": 65.95,
       "kazanc_orani": "+%9.64",
       "durum": "KAZANC_ALINDI_TAM_ISABET",
-      "kayit_tarihi": "2026-11-19 14:19:04"
+      "kayit_tarihi": "2026-11-19 14:29:07"
     },
     "TUPRS": {
       "giris_dip_seviyesi": 142.0,
       "hedef_seviye": 153.0,
       "kazanc_orani": "+%8.73",
       "durum": "KAZANC_ALINDI_TAM_ISABET",
-      "kayit_tarihi": "2026-11-19 14:19:04"
+      "kayit_tarihi": "2026-11-19 14:29:07"
     },
     "EREGL": {
       "giris_dip_seviyesi": 48.5,
       "hedef_seviye": 72.0,
       "kazanc_orani": "+%48.00 (Hedef Projeksiyon)",
       "durum": "ORTA_VADE_TAKIPTE",
-      "kayit_tarihi": "2026-11-19 14:19:04"
+      "kayit_tarihi": "2026-11-19 14:29:07"
     }
   },
   "algoritma_ve_etkilesim_kurallari": [
@@ -78,25 +78,25 @@
       "kural": "Dolar Isareti Yasagi",
       "aciklama": "FinTwit paylasimlarinda $ isareti kesinlikle kullanilmaz; # veya yalin hisse kodu tercih edilir.",
       "kayit_tarihi": "2026-11-17 15:26:55",
-      "guncelleme": "2026-11-19 14:19:04"
+      "guncelleme": "2026-11-19 14:29:07"
     },
     {
       "kural": "Karakter Optimizasyonu",
       "aciklama": "X ucretsiz hesaplarda gercek karakter limiti 280 olmasina ragmen emoji/link agirliklari nedeniyle 210-230 karakter arasinda tutulmalidir.",
       "kayit_tarihi": "2026-11-17 15:26:55",
-      "guncelleme": "2026-11-19 14:19:04"
+      "guncelleme": "2026-11-19 14:29:07"
     },
     {
       "kural": "Kurumsal Ekosistem Takibi",
       "aciklama": "0 Following izolasyonunu kirmak icin Borsa Istanbul, SPK, TCMB, BloombergHT, Matriks ve Investing takip edilerek hesap FinTwit haritasina eklemlenmistir.",
       "kayit_tarihi": "2026-11-17 15:26:55",
-      "guncelleme": "2026-11-19 14:19:04"
+      "guncelleme": "2026-11-19 14:29:07"
     },
     {
       "kural": "Sniper Yorum Stratejisi",
       "aciklama": "Populer borsa tweetlerinin altina reklam yapmadan deger katan teknik yorumlar birakmak, sifir takipcili hesaba organik profil tiklamasi kazandirir.",
       "kayit_tarihi": "2026-11-17 15:26:55",
-      "guncelleme": "2026-11-19 14:19:04"
+      "guncelleme": "2026-11-19 14:29:07"
     },
     {
       "kural": "15:30 Kuşağı Etkileşim Gönderisi",
