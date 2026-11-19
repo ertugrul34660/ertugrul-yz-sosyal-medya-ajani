@@ -1,0 +1,40 @@
+{
+  "tarih": "2026-11-19 13:08:00",
+  "rapor_adi": "Eşzamanlı Sosyal Medya Denetim Raporu (Öğle Seansı)",
+  "platformlar": {
+    "x_twitter": {
+      "hesap": "@ertugrul_yz",
+      "toplam_gonderi": 123,
+      "takip_edilen": 44,
+      "takipci": 2,
+      "mentions_durumu": "Temiz (0 Yanıt Bekleyen)",
+      "notifications_durumu": "Temiz (0 Okunmamış Yorum)",
+      "dm_durumu": "Temiz (0 Okunmamış Mesaj Rozeti)",
+      "tarayici_durumu": "İzole Tek Sekme (228ee77f)"
+    },
+    "instagram": {
+      "hesap": "ertugrul.bey60",
+      "gonderi_sayisi": 122,
+      "takipci": 1083,
+      "takip_edilen": 893,
+      "dm_durumu": "Temiz (0 Okunmamış Mesaj, 0 Mesaj İsteği)",
+      "bildirim_durumu": "32 Bekleyen Takip İsteği (mesut.bozzz + 31 diğer kişi)",
+      "yorum_durumu": "Temiz (0 Bekleyen Yorum)"
+    },
+    "facebook": {
+      "hesap": "Ertuğrul Bey (ertugrul.bey60)",
+      "arkadas_sayisi": 3260,
+      "takipci": 3300,
+      "takip_edilen": 330,
+      "arkadaslik_istekleri": "25 Bekleyen Arkadaşlık İsteği (Eski tarihli)",
+      "bildirim_durumu": "1 Anı Bildirimi, 0 Bekleyen Yorum/Etiketleme",
+      "messenger_durumu": "Temiz (0 Okunmamış Sohbet)"
+    },
+    "tiktok": {
+      "hesap": "@jitalmahalle",
+      "durum": "Kurumsal Ağ Güvenlik Duvarı Engeli (net::ERR_TIMED_OUT)",
+      "plan": "Hafta sonu ev Wi-Fi bağlantısı üzerinden operasyon"
+    }
+  },
+  "genel_degerlendirme": "Tüm platformlar eşzamanlı denetlendi. X, Instagram ve Facebook hesaplarında cevapsız hiçbir aktif soru/mesaj bulunmuyor. Hesaplar %100 temiz ve aktif."
+}
