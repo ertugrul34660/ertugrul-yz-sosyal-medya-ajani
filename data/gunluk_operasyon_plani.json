@@ -63,5 +63,16 @@
     "saat": "19:30",
     "baslik": "Akşam Özel Analizi: Koç Holding (KCHOL) Net Aktif Değer & Hedef Fiyat Kartı",
     "durum": "HAZIRLANIYOR"
+  },
+  "haftasonu_tiktok_ajandasi": {
+    "hedef_hesap": "@jitalmahalle",
+    "planlanan_zaman": "Hafta Sonu (Ev İnterneti / Engelli Olmayan Ağ)",
+    "operasyon_maddeleri": [
+      "Ev ortaminda @jitalmahalle TikTok oturumunun baglanmasi ve cerezlerin sabitlenmesi",
+      "3. Kat Medya Fabrikasi ile dikey (9:16) kisa borsa/finans animasyon videolarinin kurgulanmasi",
+      "CapCut ve seslendirme motoruyla hazir video serilerinin olusturulmasi",
+      "TikTok Trend ve Ses Radari entegrasyonu"
+    ],
+    "durum": "PLANLANDI"
   }
 }
