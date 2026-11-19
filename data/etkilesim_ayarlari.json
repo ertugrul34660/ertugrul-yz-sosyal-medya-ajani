@@ -86,5 +86,10 @@
       "facebook": "Ozel Facebook Tarayicisi (Yalnizca FB bildirimleri ve gruplar)"
     },
     "sekme_gecis_yasagi": true
+  },
+  "tek_sekme_kullanma_kurali": {
+    "aktif": true,
+    "aciklama": "Ayni site icin acik sekme varsa asla yeni sekme acma, mevcut sekmeyi kullan ve kopyalari kapat.",
+    "kural": "Ayni domain uzerinde islem yapilirken her zaman mevcut acik sekme uzerinde gezinme (in-place) yapilir, yeni sekme acilmaz."
   }
 }
