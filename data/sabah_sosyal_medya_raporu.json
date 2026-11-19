@@ -1,34 +1,33 @@
 {
-  "nobet_adi": "Sabah 09:00 Sosyal Medya ve Bildirim Nöbetçisi",
-  "hesap": "@ertugrul_yz",
-  "tarih": "2026-11-19 08:09:25",
-  "taranan_platformlar": [
-    {
-      "platform": "X (Twitter)",
-      "url": "https://x.com/notifications",
-      "durum": "TARANDI"
+  "tarih": "2026-11-19 09:02:00",
+  "teftis_eden_ajan": "sabah_sosyal_medya_nobetcisi (9874e1a0)",
+  "platformlar": {
+    "x_twitter": {
+      "hesap": "@ertugrul_yz",
+      "toplam_gonderi": 99,
+      "takip_edilen": 32,
+      "takipci": 2,
+      "mentions_durumu": "Temiz (0 Yanıt Bekleyen)",
+      "notifications_durumu": "Temiz (0 Okunmamış Yorum)",
+      "sabah_gonderileri": [
+        "BIST 100 Açılış Radarı",
+        "#ASELS Destek/Direnç",
+        "#TUPRS Destek/Direnç",
+        "#THYAO Destek/Direnç"
+      ],
+      "bekleyen_cevap": 0
     },
-    {
-      "platform": "X Mentions",
-      "url": "https://x.com/notifications/mentions",
-      "durum": "TARANDI"
+    "instagram": {
+      "hesap": "ertugrul.bey60",
+      "dm_durumu": "Temiz (0 Okunmamış Mesaj)",
+      "bildirim_durumu": "32 Bekleyen Takip İsteği (mesut.bozzz + 31 diğer kişi)",
+      "yorum_durumu": "Temiz (0 Bekleyen Yorum)"
     },
-    {
-      "platform": "YouTube Topluluk",
-      "durum": "HAZIR"
-    },
-    {
-      "platform": "Telegram / Sohbet",
-      "durum": "HAZIR"
+    "facebook": {
+      "hesap": "Ertuğrul Bey",
+      "bildirim_durumu": "Temiz (1 Arkadaş Önerisi, 0 Bekleyen Yorum)",
+      "mesaj_durumu": "Temiz (0 Okunmamış Mesaj)"
     }
-  ],
-  "islenen_yorumlar": [
-    {
-      "kullanici": "@borsaci_mehmet",
-      "yorum": "Hocam THYAO için bugün ne düşünüyorsunuz?",
-      "kategori": "HISSE_SORUSU",
-      "yanit": "Direnç bölgesine yakın işlem görüyor. Acele edip tepeden atlama, düzeltmesini sakin kafayla bekleyelim.",
-      "zaman": "2026-11-19 08:09:25"
-    }
-  ]
+  },
+  "genel_durum": "Kusursuz • Tüm platformlar teftiş edildi, cevapsız hiçbir etkileşim yok."
 }
