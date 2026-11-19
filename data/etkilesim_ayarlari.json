@@ -91,5 +91,10 @@
     "aktif": true,
     "aciklama": "Ayni site icin acik sekme varsa asla yeni sekme acma, mevcut sekmeyi kullan ve kopyalari kapat.",
     "kural": "Ayni domain uzerinde islem yapilirken her zaman mevcut acik sekme uzerinde gezinme (in-place) yapilir, yeni sekme acilmaz."
+  },
+  "tutan_ongoru_paylasim_kurali": {
+    "aktif": true,
+    "aciklama": "Hedefi veya destegi nokta atisi tutan hisse ongoruleri ekran goruntusuyle kanitli olarak profilde tekrar paylasilir.",
+    "kural": "Hedef seviyesi asilan/tutan gonderinin ekran goruntusu alinir, kanit tweeti < 235 karakter ve sifir dolar isaretiyle yayina alinir."
   }
 }
