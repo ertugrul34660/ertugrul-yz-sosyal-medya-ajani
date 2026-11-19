@@ -1,0 +1,15 @@
+{
+  "hesap": "@sessizceyazacaz",
+  "son_kontrol": "2026-11-17 11:13:14",
+  "durum": "NOBETCI_AKTIF",
+  "tespit_edilen_yorumlar": [
+    {
+      "id": "c-001",
+      "kullanici": "ornek_takipci",
+      "yorum_metni": "Hocam SASA ne zaman toparlar?",
+      "kategori": "HISSE_SORUSU",
+      "hazir_insan_dili_yanit": "Gözüm üzerinde dostum, grafiğini çizdim. Akşam çayında özel olarak değineceğim, bildirimleri aç beklemede kal! ☕📊",
+      "yanit_durumu": "BEKLEMEDE"
+    }
+  ]
+}

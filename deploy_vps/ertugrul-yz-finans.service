@@ -1,0 +1,16 @@
+[Unit]
+Description=Ertugrul YZ Finans Analisti - 7/24 Otonom Borsa ve Bulut Motoru
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/ertugrul-yz-finans
+ExecStart=/usr/bin/python3 /opt/ertugrul-yz-finans/core/autonomous_247_service.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/ertugrul_yz_service.log
+StandardError=append:/var/log/ertugrul_yz_error.log
+
+[Install]
+WantedBy=multi-user.target

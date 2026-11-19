@@ -1,0 +1,47 @@
+{
+  "zamanlama_politikasi": {
+    "yorumlar_arasi_bekleme_saniye": "30 - 60 Saniye",
+    "dalga_periyodu_dakika": "10 - 15 Dakika",
+    "mod": "TURBO_HIZLI_BUYUME_MODU",
+    "gunluk_maksimum_yorum": 50,
+    "guncelleme_tarihi": "2026-11-17 18:21:00"
+  },
+  "toplam_hedef": 20,
+  "tamamlanan": 2,
+  "gecmis_yorumlar": [
+    {
+      "zaman": "2026-11-17 18:23:03",
+      "hedef": "@arz_bilgiler (#MASFN Halka Arz)",
+      "url": "https://x.com/ertugrul_yz/status/2122712115450438035",
+      "metin": "Halka arzlarda tavan bozulduğunda panik satışı yapmak yerine kurumsal takas toplamayı izlemek gerekir. Temeli sağlamsa kademeli toplanır. Disiplin kazandırır."
+    },
+    {
+      "zaman": "2026-11-17 18:25:31",
+      "hedef": "@MatriksHaber (BIST100 Kapanış Anketi)",
+      "url": "https://x.com/ertugrul_yz/status/2122712709607133341",
+      "metin": "11.800 üzerinde kapanış trendin gücünü koruduğunu gösteriyor. Günlük dalgalara değil, doğru sektördeki dip dönüşlerine odaklanan masadan kârlı kalkar. Plana sadık kal."
+    }
+  ],
+  "yorumlari": [
+    "11.800 üzerinde tutunma çabası değerli. Ancak bu süreçte endeksten ziyade doğru hissede sabırla bekleyen kazanır. Seviyelere sadık kalmak şart. Disiplin kazandırır.",
+    "Düşüşlerde panikle satanlar, yükseliş başladığında arkasından bakmak zorunda kalıyor. Doğru seviyeden maliyetlenen için dalgalanmalar fırsattır.",
+    "Faiz indirim döngüsünde bilanço gücü ve nakit akışı yüksek sanayi devleri öncülüğünde yeni bir ralli dönemi göreceğiz. Sabır masada tutar.",
+    "Kısa vadeli gürültüye takılmadan, büyük resme ve sektörel dönüşümlere odaklanan yatırımcı her zaman hedefine ulaşır.",
+    "Endeksin yatay bantta testere yapması gayet doğal. Asıl mesele tavan peşinde koşmak değil, dip oluşumunu tamamlamış hisseleri tespit edebilmek.",
+    "Risk yönetimini bilmeyen piyasada uzun süre kalamaz. Kademeli alım ve stop-loss prensipleri sermayenin en büyük sigortasıdır.",
+    "Havacılık ve ulaştırma tarafında dip seviyelerden gelen tepki genele yayılma potansiyeli taşıyor. Trendi takip eden kazanır.",
+    "Demir-çelik ve sanayi tarafında küresel dip döngüsü tamamlanıyor. Orta-uzun vadede döngüsel ralli sabırlı yatırımcıyı ödüllendirir.",
+    "Piyasa sabırsızlardan sabırlılara para aktarma mekanizmasıdır. Seviyesini bilen için her geri çekilme bir fırsattır.",
+    "Para girişi güçlü olan hisseler endeksten pozitif ayrışmaya devam ediyor. Sepet çeşitlendirmesi bu dönemde kritik.",
+    "Direnç kırılımlarını teyit etmeden acele pozisyon açanlar maliyet çekmek zorunda kalıyor. Sabırla teyidi beklemek kârı korur.",
+    "Borsada kazanmanın sırrı her hisseye atlamak değil; tespit ettiğin birkaç sağlam hissede seviyelere sadık kalmaktır.",
+    "BIST 100 11.850 eşiğini aşarsa momentum artacaktır. Ancak yine de stop seviyelerini esnetmeden hareket etmekte fayda var.",
+    "Panikle hisse değiştirmek yerine, temel hikayesi güçlü ve ucuz kalmış hisselerde beklemek her zaman kazandırır.",
+    "Yabancı ilgisinin arttığı dönemlerde derinliği yüksek BIST 30 hisselerinin öncülüğü kaçınılmazdır.",
+    "Teknik seviyeler saat gibi işlerken duygulara göre al-sat yapmak sermayeyi eritir. Plana sadık kalmak özgürlüktür.",
+    "Piyasanın en çok korkuttuğu anlar, genellikle en iyi maliyetlenme fırsatlarının doğduğu anlardır.",
+    "Endekste yatay hareketler düzeltme sürecinin parçasıdır. Sağlıklı bir yükseliş için bu dinlenmeler şart.",
+    "Her dalgalanmada portföy boşaltmak yerine risk dağılımı yapmak yatırımcıyı ayakta tutar.",
+    "Borsada zamanlama değil, seviye ve disiplin esastır. Doğru hissede doğru zamanda olan masadan kârlı kalkar."
+  ]
+}

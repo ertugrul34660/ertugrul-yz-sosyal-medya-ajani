@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ertuğrul YZ • Hisse Analiz ve Görsel Yayın Kokpiti</title>
+  <style>
+    :root {
+      --bg: #0B0F19;
+      --panel: #131B2E;
+      --card: #1A243B;
+      --card-hover: #22304D;
+      --border: #1E293B;
+      --cyan: #00E5FF;
+      --cyan-glow: rgba(0, 229, 255, 0.35);
+      --green: #10B981;
+      --gold: #F59E0B;
+      --text: #F8FAFC;
+      --muted: #94A3B8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); min-height: 100vh; padding: 24px; }
+    .container { max-width: 1240px; margin: 0 auto; }
+
+    header { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand img { height: 44px; border-radius: 8px; border: 1px solid var(--cyan); }
+    .brand-title { font-size: 20px; font-weight: 700; color: var(--cyan); letter-spacing: 0.5px; }
+    .brand-sub { font-size: 13px; color: var(--muted); }
+    .status-badge { background: rgba(16, 185, 129, 0.15); color: var(--green); padding: 8px 16px; border-radius: 20px; font-size: 13px; border: 1px solid rgba(16, 185, 129, 0.3); font-weight: 700; }
+
+    /* Ana Izgara */
+    .grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 24px; }
+    @media (max-width: 950px) { .grid { grid-template-columns: 1fr; } }
+
+    .card { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 16px; }
+    .card-header { display: flex; justify-content: space-between; align-items: center; }
+    .card-title { font-size: 16px; font-weight: 600; color: var(--cyan); display: flex; align-items: center; gap: 8px; }
+    .card-badge { font-size: 12px; background: rgba(0, 229, 255, 0.15); color: var(--cyan); padding: 4px 10px; border-radius: 6px; font-weight: 600; }
+
+    /* Görsel Önizleme Kutusu */
+    .preview-card { border-radius: 10px; overflow: hidden; border: 1px solid var(--border); background: #000; display: flex; align-items: center; justify-content: center; position: relative; }
+    .preview-card img { width: 100%; height: auto; display: block; border-radius: 9px; }
+
+    /* Tweet Kutusu */
+    .tweet-box { background: #070A10; border: 1px solid var(--border); border-radius: 8px; padding: 16px; font-size: 14.5px; line-height: 1.6; color: #F1F5F9; white-space: pre-wrap; min-height: 160px; user-select: all; }
+
+    /* Butonlar */
+    .btn { background: linear-gradient(135deg, var(--cyan), #0077B6); color: #0B0F19; font-weight: 700; border: none; padding: 12px 18px; border-radius: 8px; cursor: pointer; transition: 0.2s; text-align: center; font-size: 14px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+    .btn:hover { box-shadow: 0 0 16px var(--cyan-glow); transform: translateY(-1px); }
+    .btn-x { background: #000; color: #FFF; border: 1px solid #334155; }
+    .btn-x:hover { background: #0F172A; border-color: var(--cyan); }
+    .btn-secondary { background: var(--card); color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--card-hover); }
+
+    /* Hisse Listesi */
+    .stock-list { display: flex; flex-direction: column; gap: 10px; max-height: 580px; overflow-y: auto; }
+    .stock-item { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: 0.2s; }
+    .stock-item:hover { border-color: rgba(0, 229, 255, 0.4); background: var(--card-hover); }
+    .stock-item.active { border-color: var(--cyan); background: #182238; }
+
+    .toast { position: fixed; bottom: 20px; right: 20px; background: var(--cyan); color: #000; padding: 12px 20px; border-radius: 8px; font-weight: 600; display: none; z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="brand">
+      <img src="../assets/Ertugrul_YZ_Logo.png" alt="Ertuğrul YZ" />
+      <div>
+        <div class="brand-title">ERTUĞRUL YZ</div>
+        <div class="brand-sub">Hisse Analiz ve Görsel Yayın Masası (Sade ve Doğal Standart)</div>
+      </div>
+    </div>
+    <div class="status-badge">● Dolar İşaretsiz Temiz Format</div>
+  </header>
+
+  <div class="grid">
+    <!-- Sol Kolon: Seçili Hisse, Görseli ve Tweet Metni -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">🖼️ Canlı Görsel ve Paylaşım Kartı</div>
+        <span class="card-badge" id="cardBadge">HEDEF VURULDU 🎯</span>
+      </div>
+
+      <!-- Kart Görseli -->
+      <div class="preview-card">
+        <img id="cardImage" src="../assets/post_cards/THYAO_Analiz_Karti.png" alt="Analiz Kartı" />
+      </div>
+
+      <!-- Tweet Metni -->
+      <div class="tweet-box" id="tweetBox">Yükleniyor...</div>
+
+      <div style="display: flex; gap: 10px;">
+        <button class="btn btn-x" style="flex: 2;" onclick="openOnX()">𝕏 X'te Bu Analizi Paylaş</button>
+        <button class="btn btn-secondary" style="flex: 1;" onclick="copyTweet()">📋 Metni Kopyala</button>
+      </div>
+    </div>
+
+    <!-- Sağ Kolon: Hisse Seçim Listesi -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">📊 Analiz Edilen Hisseler (Tek Tek)</div>
+        <span class="card-badge">Tıkla & Gör</span>
+      </div>
+
+      <div class="stock-list" id="stockList">
+        <!-- JS ile dolacak -->
+      </div>
+
+      <div style="font-size: 13px; color: var(--muted); border-top: 1px solid var(--border); padding-top: 12px; line-height: 1.4;">
+        💡 <strong>Yönetim Kurulu Kuralı:</strong> Dolar ($) işareti gerekmedikçe kullanılmaz; hisse kodları sade ve doğal Türkçe finans diliyle (#THYAO, #ASELS, THY) paylaşılır.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast">Kopyalandı!</div>
+
+<script>
+  const stocks = [
+    {
+      symbol: "THYAO",
+      name: "Türk Hava Yolları",
+      status: "HEDEF VURULDU 🎯",
+      gain: "+%9.03 Kâr",
+      color: "#10B981",
+      image: "../assets/post_cards/THYAO_Analiz_Karti.png",
+      tweet: `Dün herkes panikle satarken ne demiştik?
+
+"THY'de 285 TL altı kapanış gelmedikçe bu hareket silkelemedir, 308 TL direnci masada."
+
+Bugün tahta 310 TL'ye iğne attı. Net +%9 tertemiz kâr! 🎯
+
+Seviyeye sadık kalanları tebrik ederim. Kazananlar kimler? 👇
+
+#THYAO #Borsa #BIST100`
+    },
+    {
+      symbol: "ASELS",
+      name: "Aselsan",
+      status: "HEDEF VURULDU 🎯",
+      gain: "+%9.64 Kâr",
+      color: "#10B981",
+      image: "../assets/post_cards/ASELS_Analiz_Karti.png",
+      tweet: `ASELSAN için düşen kanal kırılımında ne dedik? 
+
+"61.20 TL üstü güç toplar, 66.50 TL kapıda." 
+
+Bugün 67.10 TL zirve yaptı. +%9.64 kâr cepte! 🎯
+
+Sabırla bekleyen dostları kutlarım. Sırada hangi hisseye bakalım, yoruma yazın 👇
+
+#ASELS #Borsa #BIST100`
+    },
+    {
+      symbol: "TUPRS",
+      name: "Tüpraş",
+      status: "HEDEF VURULDU 🎯",
+      gain: "+%8.73 Kâr",
+      color: "#10B981",
+      image: "../assets/post_cards/TUPRS_Analiz_Karti.png",
+      tweet: `Tüpraş'ta 142 TL dip oluşumunu yakalayanlar bugün 153 TL direncinde kârını aldı bile (+%8.73). 🎯
+
+Rafineri marjlarındaki toparlanma tespitimiz saat gibi işledi.
+
+Doğru zamanda doğru tespit. Kazanmaya devam edenler kimler? ☕🚀
+
+#TUPRS #Borsa #BIST100`
+    },
+    {
+      symbol: "EREGL",
+      name: "Ereğli Demir Çelik",
+      status: "YENİ TESPİT 🔍",
+      gain: "+%9.71 Hedef",
+      color: "#F59E0B",
+      image: "../assets/post_cards/EREGL_Analiz_Karti.png",
+      tweet: `Millet "Demir çelik bitti, öldü" moduna girdiğinde radarıma girdi bu hisse.
+
+EREGL tarafında 27.50 TL tabanı güçlü savunuluyor. Çelikte kıpırdanma var, dipten dönüş kokusu alıyorum.
+
+Hedefim 30.50 TL bandı. Acelem yok, sabırla izlemeye devam. 📊
+
+Sizce toplanır mı? 👇
+
+#EREGL #Borsa #Hisse`
+    },
+    {
+      symbol: "KCHOL",
+      name: "Koç Holding",
+      status: "HEDEF VURULDU 🎯",
+      gain: "+%12.64 Kâr",
+      color: "#10B981",
+      image: "../assets/post_cards/KCHOL_Analiz_Karti.png",
+      tweet: `178 TL'de "Holding iskontosu tarihsel diplerde" diyerek paylaştığımız Koç Holding bugün 200 TL barajını aştı (+%12.64). 🎯
+
+Şeffaf ve kayıtlı tespitler. Bizi takip edip plana uyanlar yine kârda.
+
+Yeni analizler için bildirim zilini açmayı unutmayın! 🔔
+
+#KCHOL #Borsa #BIST100`
+    }
+  ];
+
+  let currentStockIndex = 0;
+
+  function renderList() {
+    const list = document.getElementById("stockList");
+    list.innerHTML = "";
+    stocks.forEach((s, idx) => {
+      const div = document.createElement("div");
+      div.className = `stock-item ${idx === currentStockIndex ? "active" : ""}`;
+      div.onclick = () => selectStock(idx);
+      div.innerHTML = `
+        <div>
+          <div style="font-weight:700; font-size:15px; color:var(--cyan);">${s.symbol}</div>
+          <div style="font-size:12px; color:var(--muted);">${s.name}</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-weight:700; font-size:14px; color:${s.color};">${s.gain}</div>
+          <div style="font-size:11px; color:var(--muted);">${s.status}</div>
+        </div>
+      `;
+      list.appendChild(div);
+    });
+  }
+
+  function selectStock(idx) {
+    currentStockIndex = idx;
+    const s = stocks[idx];
+    document.getElementById("cardImage").src = s.image;
+    document.getElementById("tweetBox").innerText = s.tweet;
+    document.getElementById("cardBadge").innerText = s.status;
+    document.getElementById("cardBadge").style.color = s.color;
+    renderList();
+  }
+
+  function openOnX() {
+    const text = document.getElementById("tweetBox").innerText;
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank");
+  }
+
+  function copyTweet() {
+    const text = document.getElementById("tweetBox").innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      showToast("Tweet metni kopyalandı!");
+    });
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById("toast");
+    toast.innerText = msg;
+    toast.style.display = "block";
+    setTimeout(() => { toast.style.display = "none"; }, 2000);
+  }
+
+  selectStock(0);
+</script>
+
+</body>
+</html>

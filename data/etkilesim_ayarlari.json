@@ -1,0 +1,81 @@
+{
+  "otonom_dongu_dakika": 20,
+  "dongu_siralamasi": [
+    "1_Gonderi_Paylasimi",
+    "2_Sniper_Yorum",
+    "3_Bildirim_Kontrol_ve_Cevap"
+  ],
+  "tekrar_engelleme_kurali": "Asla ayni kaliplar (masaya oturma yeri, kar alma duragi, tweeti not edin, sabirsizin parasi) ust uste kullanilmayacak. Her gonderi farkli bir tondan ve farkli bir psikolojik aciyla yazilacak.",
+  "gonderi_tarzlari_rotasyonu": [
+    {
+      "tarz_adi": "Soru_ve_Meydan_Okuma",
+      "aciklama": "Yatirimciyi tartismaya ceken, merak uyandiran, ters kose sorular",
+      "ornek": "Herkes kirmizi ekrana bakip karalar baglarken tahtaci bu mali kimden topluyor? 318 altina sarkitip korkutanlar 330 gorunce ne diyecek? Maliyetleri gorelim 👇"
+    },
+    {
+      "tarz_adi": "Sert_ve_Net_Piyasa_Raconu",
+      "aciklama": "Kisa, carpici, otoriter ve goz acici tecrube aktarimi",
+      "ornek": "Borsada sirkete asik olunmaz, maliyete ve plana sadik kalinir. 11.800 ustunde nefes aliyoruz. Gereginden fazla heyecan sermayeyi eritir. Sakin olan kazanir."
+    },
+    {
+      "tarz_adi": "Radar_ve_Hacim_Alarmi",
+      "aciklama": "Anlik hareket, kirilim veya hacim sezgisi veren profesyonel gozlem",
+      "ornek": "Radarda sessiz sedasiz dip olusumu var. 64 bandinda mali dokenler 69 testinde siraya girer. Piyasa sabirli olanin arkasindadir. Izlemedeyiz."
+    },
+    {
+      "tarz_adi": "Hikaye_ve_Psikoloji_Aynasi",
+      "aciklama": "Kucuk yatirimcinin dustugu tuzaklari ayna gibi yuzune vuran bilge yaklasim",
+      "ornek": "Tavan serisinde herkes borsaci, iki gun yatayda herkes karamsar. Para boyle donemlerde el degistirir. Panikle tuslara basmayin, geriye cekilip buyuk resme bakin."
+    },
+    {
+      "tarz_adi": "Net_Seviye_ve_Hedef_Karti",
+      "aciklama": "Kisa ve oz teknik destek-direnc fisi",
+      "ornek": "THYAO: 318 TL taban, 326 TL hacimli asilirsa 334 TL kisa vadeli alan. Stopsuz yola cikan yolda kalir."
+    }
+  ],
+  "sniper_yorum_mizah_kurali": "Kisilere yorum atarken son derece komik, esprili, kahkaha attiran ve borsa trajedisini tatli bir mizahla karsilayan Fintwit uslubu kullanilacak. Kuru tavsiye yerine sempati ve begeni toplayan espriler patlatilacak.",
+  "sniper_yorum_esprili_kalip_havuzu": [
+    "Maliyeti dusurecegim diye hisse ala ala sirketin yonetim kuruluna girecegiz az kaldi hocam, gecmis olsun valla.",
+    "Borsa degil sanki kardiyoloji klinigi; grafikteki kirmizi mumlar EKG grafigi gibi kalp ritmimizi bozuyor.",
+    "Tavandan alip tabanda vedalasmak milli sporumuz oldu. Bu gidisle sirketin acilis kurdelesini kesmeye bizi cagiracaklar.",
+    "Hisse duserken gosterdigi hizi roket firlatirken NASA gostermiyor. Sabir tasi olsa catlardi.",
+    "Uygulamayi silip 2028'e alarm kuranlar dernegine hos geldin hocam, caylar sirketten.",
+    "Bizim borsa oyle bir yer ki sabah zengin uyanip ogleden sonra simit ayrana talim ediyorsun. Tahtaciyla yine goz goze geldik.",
+    "Tahtaci butun tuslara ayni anda basiyor galiba, ekran kizardikca icimiz yaniyor."
+  ],
+  "sniper_yorum_dogal_tarzlari": [
+    "Hocam cok dogru bir noktaya deginmissin, ama tam bu donemlerde panikle dokenlerin malini topluyorlar. Sakin kalmak en buyuk sermaye.",
+    "Bilanconun gucunu bilmeyen kisa vadeli dalgada duser. Fiyata degil sirketin urettigi nakde bakmak lazim.",
+    "Ayni senaryoyu defalarca gorduk. Sabirsiz olan satar, maliyeti saglam olan arkasina yaslanip seyreder.",
+    "Piyasa once tereddut ettirir, sonra pesinden kosturur. Ana seviyelere sadik kalmak bu yuzden sart."
+  ],
+  "topluluktan_gelen_populer_hisseler": [
+    "THYAO",
+    "SASA",
+    "ASELS",
+    "EREGL",
+    "TUPRS",
+    "KCHOL",
+    "ASTOR",
+    "BIMAS",
+    "EKGYO",
+    "AKBNK"
+  ],
+  "hazir_cevaplar": {
+    "tesekkur": [
+      "Bereketli olsun dostum, kârı cebe koymayı sakın ihmal etme ☕ Afiyetle harca!",
+      "Rica ederim, disiplinli kalan her zaman kazanır. Birlikte büyümeye devam 🚀",
+      "Ne demek dostum, gözün arkada kalmasın. Seviyelere sadık kaldığımız sürece sorun yok."
+    ],
+    "panik_zarar": [
+      "Sakin kal dostum, ekranı kapatıp bir hava al. Panikle verilen karar her zaman zarar ettirir.",
+      "Borsada kural 1: Sermayeyi korumak. Stop seviyene sadık kal, piyasada fırsat asla bitmez.",
+      "Korkma, panik satanların malını sabırlılar toplar. Planına sadık kalırsan toparlar."
+    ],
+    "hisse_soran": [
+      "Gözüm üzerinde dostum, grafiğini çiziyorum. Akşam kahvesinde detaylı bakarız ☕",
+      "Şu an tam direnç bölgesinde, acele edip tepeden atlama. Düzeltmesini bekleyelim.",
+      "Listeme aldım, bildirimleri aç beklemede kal!"
+    ]
+  }
+}

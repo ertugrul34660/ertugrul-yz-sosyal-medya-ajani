@@ -1,0 +1,46 @@
+{
+  "son_esitleme": "2026-11-17T19:26:39.063627",
+  "bulut_klasor_id": "1C_-DTzNWPb5qdm_E6LqYjcFq7ishbXr1",
+  "dosyalar": {
+    "ogrenilen_bilgiler.json": {
+      "drive_id": "1Ri2Fyfi3dhQMYDFwnNuBZ_ub8E7Spu59",
+      "hash": "48a65dc4d600b61b9dab049c55894679",
+      "son_guncelleme": "2026-11-17T19:26:39.063616"
+    },
+    "gunluk_operasyon_plani.json": {
+      "drive_id": "1cQlhVKL8b6cjwicaHGf2-LyRm85EBqCr",
+      "hash": "20beba482f070cb0b58b36fdba1e6929",
+      "son_guncelleme": "2026-11-17T18:26:34.624598"
+    },
+    "x_banner_ertugrul_yz.png": {
+      "drive_id": "1bKayZhl52iGnPQAMQGdZDZHXw2L_ikSS",
+      "hash": "3d2b2420ffaa15e28515b8e37bb07f9a",
+      "son_guncelleme": "2026-11-17T15:27:42.736581"
+    },
+    "ASELS_Analiz_Karti.png": {
+      "drive_id": "1luz1fGN00zdxSnmhNz3HoF3NvTSbmuKl",
+      "hash": "21da639a9cee2c0fd302d36bce9c700e",
+      "son_guncelleme": "2026-11-17T15:27:46.792679"
+    },
+    "EREGL_Analiz_Karti.png": {
+      "drive_id": "1QntmoHy0aJhn7loaaYzFx-8URWyOAQGM",
+      "hash": "176e2ac51c4fd2576d60cc4784036a0a",
+      "son_guncelleme": "2026-11-17T15:27:58.789502"
+    },
+    "KCHOL_Analiz_Karti.png": {
+      "drive_id": "11r9U7sVcrmLTeaL8UqkRI4sHwpUg_yx1",
+      "hash": "99531457de13cf4fae868725f6118727",
+      "son_guncelleme": "2026-11-17T15:28:04.892289"
+    },
+    "THYAO_Analiz_Karti.png": {
+      "drive_id": "1JZ1bh6IkmHU7T_y1iA7aBrGFJ94DVA8G",
+      "hash": "800ffb30ab867dc75f1aed7314c7595d",
+      "son_guncelleme": "2026-11-17T15:28:08.294318"
+    },
+    "TUPRS_Analiz_Karti.png": {
+      "drive_id": "1pAS2yKicZW_g3tYA6WFm3iuCaV4Zzii8",
+      "hash": "c33225398150d77efb5e0c22339bb699",
+      "son_guncelleme": "2026-11-17T15:28:11.601009"
+    }
+  }
+}

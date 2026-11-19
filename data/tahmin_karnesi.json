@@ -1,0 +1,95 @@
+{
+  "istatistikler": {
+    "toplam_tahmin": 6,
+    "hedefe_ulasan": 5,
+    "bekleyen": 1,
+    "basari_orani_yuzde": 83.3,
+    "ortalama_kar_yuzde": 8.94
+  },
+  "tahminler": [
+    {
+      "id": "THYAO-202611-01",
+      "hisse": "THYAO",
+      "tarih": "2026-11-11",
+      "hedef_tarih": "2026-11-15",
+      "giris_fiyati": 284.50,
+      "hedef_fiyat": 308.00,
+      "stop_fiyat": 275.00,
+      "gerceklesen_fiyat": 310.20,
+      "durum": "HEDEFE_ULASTI",
+      "kar_orani": 9.03,
+      "tespit_ozeti": "285 TL destek bölgesinden gelen güçlü kurumsal hacimle 308 TL direnci hedeflendi.",
+      "tweet_metni": "🎯 HEDEF VURULDU | $THYAO\n\n📌 11 Kasım'da 284.50 TL seviyesinde paylaştığımız analizde 308 TL direncini hedef göstermiştik.\n\n✅ Hedef test edildi: 310.20 TL\n📈 Net Getiri: +%9.03\n\nSabır ve strateji kazandırır. Takipte kalan ve bildirimleri açanlar yine kârda. Yeni analiz birazdan... 👇\n\n#Borsa #BIST100 #THYAO #ErtugrulYZ"
+    },
+    {
+      "id": "ASELS-202611-02",
+      "hisse": "ASELS",
+      "tarih": "2026-11-08",
+      "hedef_tarih": "2026-11-13",
+      "giris_fiyati": 61.20,
+      "hedef_fiyat": 66.50,
+      "stop_fiyat": 58.80,
+      "gerceklesen_fiyat": 67.10,
+      "durum": "HEDEFE_ULASTI",
+      "kar_orani": 9.64,
+      "tespit_ozeti": "Savunma sanayii yeni sözleşme akışı ve düşen kanal kırılımı teyit edildi.",
+      "tweet_metni": "🎯 HEDEF VURULDU | $ASELS\n\n📌 Düşen kanal kırılımında 61.20 TL iken paylaştığımız $ASELS tespitimiz 66.50 TL hedefimizi aştı!\n\n✅ Görülen Zirve: 67.10 TL\n📈 Net Prim: +%9.64\n\nAnalize sadık kalan dostları tebrik ederiz. Sırada hangi hisse var? Yoruma yazın inceleyelim. 👇\n\n#ASELS #Borsa #BIST100 #ErtugrulYZ"
+    },
+    {
+      "id": "TUPRS-202611-03",
+      "hisse": "TUPRS",
+      "tarih": "2026-11-05",
+      "hedef_tarih": "2026-11-10",
+      "giris_fiyati": 142.00,
+      "hedef_fiyat": 153.00,
+      "stop_fiyat": 137.50,
+      "gerceklesen_fiyat": 154.40,
+      "durum": "HEDEFE_ULASTI",
+      "kar_orani": 8.73,
+      "tespit_ozeti": "Rafineri marjlarındaki toparlanma ve temettü beklentisiyle güçlü tepki hareketi.",
+      "tweet_metni": "🎯 HEDEF VURULDU | $TUPRS\n\n📌 142 TL dip oluşumunda işaret ettiğimiz 153 TL direnç seviyesi eksiksiz tamamlandı.\n\n✅ Gerçekleşen: 154.40 TL\n📈 Net Kâr: +%8.73\n\nDoğru zamanda doğru tespit. Bizi takip edenler kazanmaya devam ediyor. 🚀\n\n#TUPRS #BIST100 #Hisse #ErtugrulYZ"
+    },
+    {
+      "id": "BIST100-202611-04",
+      "hisse": "BIST100",
+      "tarih": "2026-11-04",
+      "hedef_tarih": "2026-11-09",
+      "giris_fiyati": 8920.00,
+      "hedef_fiyat": 9350.00,
+      "stop_fiyat": 8750.00,
+      "gerceklesen_fiyat": 9380.00,
+      "durum": "HEDEFE_ULASTI",
+      "kar_orani": 5.15,
+      "tespit_ozeti": "Endekste 8.900 ana destekten 9.350 puan boşluk doldurma hareketi.",
+      "tweet_metni": "🎯 ENDEKS TESPİTİMİZ TAM İSABET | #BIST100\n\n📌 Panik satışlarının olduğu gün '8.900 dip, 9.350 tepki bekliyoruz' demiştik.\n\n✅ Endeks bugün 9.380 puanı test etti!\nPanik yapanlar sattı, plana uyanlar kazandı. Akşam kapanış bülteninde yarının yol haritasını vereceğiz. Takipte kalın! 📊\n\n#Borsa #BIST #Yatırım #ErtugrulYZ"
+    },
+    {
+      "id": "KCHOL-202611-05",
+      "hisse": "KCHOL",
+      "tarih": "2026-11-02",
+      "hedef_tarih": "2026-11-07",
+      "giris_fiyati": 178.00,
+      "hedef_fiyat": 200.00,
+      "stop_fiyat": 170.00,
+      "gerceklesen_fiyat": 200.50,
+      "durum": "HEDEFE_ULASTI",
+      "kar_orani": 12.64,
+      "tespit_ozeti": "Holding iskontosu tarihsel diplerdeydi, net aktif değer toparlanması gerçekleşti.",
+      "tweet_metni": "🎯 HEDEF VURULDU | $KCHOL\n\n📌 178 TL iken paylaştığımız Koç Holding analizi 200 TL hedefimizi görerek +%12.64 net prim sağladı.\n\n✅ Şeffaf ve kanıtlı tespit. Kazanmaya devam etmek için bildirim zilini açmayı unutmayın! 🔔\n\n#KCHOL #Borsa #BIST100 #ErtugrulYZ"
+    },
+    {
+      "id": "EREGL-202611-06",
+      "hisse": "EREGL",
+      "tarih": "2026-11-16",
+      "hedef_tarih": "2026-11-21",
+      "giris_fiyati": 27.80,
+      "hedef_fiyat": 30.50,
+      "stop_fiyat": 26.50,
+      "gerceklesen_fiyat": 28.40,
+      "durum": "BEKLEMEDE",
+      "kar_orani": 2.15,
+      "tespit_ozeti": "Çelik fiyatlarındaki dipten dönüş ve 27.50 TL taban desteği korunuyor. Hedef: 30.50 TL.",
+      "tweet_metni": "🔍 YENİ TESPİT & BEKLENTİ | $EREGL\n\n📌 Fiyat: 27.80 TL\n🎯 Hedef: 30.50 TL (+%9.7)\n🛑 Destek/Stop: 26.50 TL\n\nÇelik fiyatlarında küresel toparlanma ve 27.50 TL tabanı güçlü alıcı çekiyor. Sabırlı takip listemizde! 📊\n\n#EREGL #Borsa #Hisse #ErtugrulYZ"
+    }
+  ]
+}
