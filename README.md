@@ -1,115 +1,106 @@
-# 🏛️ Ertuğrul YZ • Otonom Borsa ve Finans Analisti
+# 📱 Ertuğrul YZ • 7/24 Otonom Sosyal Medya ve Topluluk Ajanı
 
-> **7/24 Kesintisiz BIST Piyasa Radarı, Otonom Seviye Kehanetleri ve Sosyal Medya İletişim Ajanı**
+> **X (Twitter), Instagram ve Facebook İçin 7/24 Kesintisiz Otonom İçerik Üretimi, Topluluk Yönetimi ve Bildirim Nöbetçisi**
 
 [![Ertuğrul YZ](https://img.shields.io/badge/Ecosystem-Ertu%C4%9Frul%20YZ-00E5FF?style=for-the-badge&logo=shield)](https://github.com/ertugrul34660)
+[![Social Media](https://img.shields.io/badge/Platforms-X%20%7C%20Instagram%20%7C%20Facebook-1DA1F2?style=for-the-badge&logo=x)](https://x.com/ertugrul_yz)
+[![Autonomous Watchdog](https://img.shields.io/badge/Watchdog-24%2F7%20Autonomous-success?style=for-the-badge)](https://github.com/ertugrul34660/ertugrul-yz-sosyal-medya-ajani)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://python.org)
-[![BIST 100](https://img.shields.io/badge/Market-Borsa%20%C4%B0stanbul-red?style=for-the-badge)](https://www.borsaistanbul.com)
-[![Autonomous](https://img.shields.io/badge/Engine-24%2F7%20Autonomous-success?style=for-the-badge)](https://github.com/ertugrul34660)
 [![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Ertugrul%20YZ-orange?style=for-the-badge)](#)
 
 ---
 
-## 🌟 Projeye Genel Bakış
+## 🌟 Sosyal Medya Ajanı Genel Bakış
 
-**Ertuğrul YZ • Otonom Borsa ve Finans Analisti**, Borsa İstanbul (BIST 100 / BIST 500) verilerini derinlemesine analiz eden, teknik seviyeleri (destek, direnç, hacim kırılımları) yorumlayan ve sosyal medya platformlarında (başta X / Twitter olmak üzere) organik yatırımcı topluluğu oluşturan yapay zeka destekli otonom bir finans ekosistemidir.
+**Ertuğrul YZ • 7/24 Otonom Sosyal Medya Ajanı**, dijital varlıklarımızı (başta X/Twitter olmak üzere Instagram ve Facebook hesaplarımızı) otonom olarak yönetmek, etkileşimi organik şekilde büyütmek ve takipçi topluluğuyla sürekli iletişimde kalmak üzere tasarlanmış yeni nesil bir yapay zeka sosyal medya yönetim motorudur.
 
-Sistem; insan müdahalesine ihtiyaç duymaksızın 20 dakikalık periyotlarla piyasa nabzını ölçer, nokta atışı hisse radarları paylaşır, yatırımcıların sorularına anında yanıt üretir ve her sabah 09:00'da tüm bildirimleri teftiş eden otonom bir nöbetçi çalıştırır.
-
----
-
-## ⚡ Temel Yetenekler ve Mimari Bileşenler
-
-### 1. 📡 BIST 100 Radar & Seviye Kehanet Motoru
-- **Hisse Seviye Analizi:** ASELS, TUPRS, THYAO, EREGL, KRDMD gibi lokomotif tahtalarda anlık destek ve direnç tespitleri.
-- **Piyasa Psikolojisi:** Finansal okuryazarlığı mizah ve bilgelikle harmanlayan, etkileşim gücü yüksek içerik üretimi.
-- **Karakter ve Format Kontrolü:** X algoritmalarına tam uyumlu, 235 karakter sınırını aşmayan ve spama düşmeyen temiz metin standardı.
-
-### 2. 🎯 Akıllı Sniper Etkileşim & Topluluk Ajanı
-- **Hedefli Etkileşim:** Canlı `#BIST100` akışından 1K – 15K takipçili aktif bireysel yatırımcıları tespit eder.
-- **Bilge & Esprili Yorumlar:** Yatırımcı gönderilerine anında değer katan samimi ve dikkat çekici cevaplar bırakır.
-- **Anti-Shadowban Zırhı:** X güvenlik algoritmalarına takılmamak için 20 dakikalık doğal bekleme aralıkları ve organik insan davranış simülasyonu.
-
-### 3. ⏰ 09:00 Sabah Nöbetçisi & Çoklu Platform Desteği
-- **09:00 Açılış Öncesi Teftişi:** Seans açılmadan önce X (`/notifications`, `/mentions`) ve Meta (Instagram/Facebook) gelen kutularını tarar.
-- **Otomatik Yanıt Sistemi:** Takipçilerden ve yatırımcılardan gelen soruları analiz eder, borsa etiğine uygun şekilde yanıtlar.
-- **Raporlama Kütüğü:** Yapılan her aksiyonu `sabah_sosyal_medya_raporu.json` ve `tahmin_karnesi.json` dosyalarına mühürler.
-
-### 4. 🧠 Kendi Kendine Evrimleşen Hafıza (Continuous Learner)
-- **Tahmin Karnesi:** Paylaşılan seviyelerin seans sonundaki başarı oranlarını ölçer.
-- **Etkileşim Optimizasyonu:** Hangi hisselerin ve içerik formatlarının daha çok ilgi gördüğünü öğrenerek sonraki döngüleri optimize eder.
+Sistem insan müdahalesine gerek kalmaksızın;
+1. **20 dakikalık periyotlarla** platform güvenlik algoritmalarına (anti-shadowban) tam uyumlu, organik içerikler üretip yayınlar.
+2. **Sniper Etkileşim Algoritması** ile hedef kitledeki aktif kullanıcılara esprili, samimi ve bilge yanıtlar bırakarak organik profil trafiği çeker.
+3. **Her sabah saat 09:00'da** devreye giren otonom nöbetçi ile gelen tüm bildirimleri, soruları ve yorumları denetleyerek anında akıllı yanıtlar verir.
 
 ---
 
-## 📂 Akıllı Modüler Klasör Yapısı
+## ⚡ Temel Yetenekler ve Sosyal Medya Modülleri
+
+### 1. ⏰ 20 Dakikalık Otonom Gönderi & Sniper Etkileşim Ritimleri
+- **Anti-Shadowban Koruması:** Platform algoritmalarının spam filtresine takılmamak için her iki işlem arasına 20 dakikalık doğal bekleme aralığı koyar.
+- **Karakter & Format Standardı:** X platformu için 235 karakter sınırına tam uyumlu, temiz ve yüksek okunurluklu metinler kurgular.
+- **Sniper Hedefleme:** Canlı akıştan 1K – 15K arası aktif bireysel kullanıcıları seçer ve doğrudan dikkat çeken samimi yorumlar üretir.
+
+### 2. 🛡️ Her Sabah Saat 09:00 Sosyal Medya Nöbetçisi (`sabah_sosyal_medya_nobetcisi.py`)
+- **Çoklu Platform Teftişi:** Seans ve gün başlamadan önce X (`/notifications` ve `/mentions`), Instagram ve Facebook bildirimlerini tek tek inceler.
+- **Akıllı Yanıt Motoru:** Kullanıcıların paylaşımlarımıza yaptığı yorumları ve soruları analiz edip marka dilimize uygun şekilde yanıtlar.
+- **Şeffaf Raporlama:** Teftiş sonuçlarını `sabah_sosyal_medya_raporu.json` kütüğüne işleyerek Yönetim Kurulu'na sunar.
+
+### 3. 🎨 Otomatik Görsel ve Sosyal Medya Kart Fabrikası (`generate_post_card.py`)
+- **Infografik Kartlar:** ASELS, TUPRS, THYAO, EREGL gibi kritik başlıklar için yüksek çözünürlüklü şık sosyal medya kartları üretir.
+- **Kurumsal Banner:** `assets/x_banner_ertugrul_yz.png` ile kurumsal kimliğe tam uyumlu profil kapakları tasarlar.
+
+### 4. 🧠 Kendi Kendine Evrimleşen Etkileşim Hafızası (`continuous_learner.py`)
+- **Etkileşim Optimizasyonu:** Hangi saatlerde ve hangi içerik türlerinde daha çok beğeni/yanıt alındığını analiz ederek sonraki paylaşımları dinamik olarak optimize eder.
+- **Sıfır Dolar Standardı:** Metinlerde kesinlikle kaçak format veya yapay zeka jargonu barındırmaz; tamamen organik insan üslubu kullanır.
+
+---
+
+## 📂 Sosyal Medya Ajanı Klasör Hiyerarşisi
 
 ```text
-ertugrul-yz-finans-analisti/
-├── assets/                  # Vektörel kurumsal logo, görsel kartlar ve bannerlar
+ertugrul-yz-sosyal-medya-ajani/
+├── assets/                  # Kurumsal logo, sosyal medya kartları ve bannerlar
 │   ├── Ertugrul_YZ_Logo.svg
 │   ├── Ertugrul_YZ_Logo.png
-│   └── post_cards/         # Otomatik üretilen infografik ve analiz kartları
-├── core/                    # Çekirdek motorlar ve otonom analist algoritmaları
-│   ├── autonomous_247_service.py      # 7/24 kesintisiz orkestrasyon servisi
-│   ├── autonomous_growth_radar.py     # Organik büyüme ve etkileşim radarı
-│   ├── market_engine.py               # Piyasa analiz ve tahmin motoru
-│   ├── sabah_sosyal_medya_nobetcisi.py# 09:00 sabah teftiş ve bildirim nöbetçisi
-│   ├── comment_watcher.py             # Yorum ve etkileşim gözlemcisi
-│   ├── continuous_learner.py          # Tahmin karnesi ve performans öğrenicisi
-│   └── generate_post_card.py          # Görsel kart üretim motoru
-├── data/                    # Hafıza kütükleri ve konfigürasyonlar
-│   ├── gunluk_operasyon_plani.json
-│   ├── tahmin_karnesi.json
-│   ├── sabah_sosyal_medya_raporu.json
-│   └── etkilesim_ayarlari.json
-├── deploy_vps/              # Bulut sunucu (Docker / VPS) dağıtım paketleri
+│   ├── x_banner_ertugrul_yz.png
+│   └── post_cards/         # Otomatik oluşturulan görsel içerikler
+├── core/                    # Otonom sosyal medya yönetim motorları
+│   ├── autonomous_247_service.py      # 7/24 Kesintisiz sosyal medya servisi
+│   ├── sabah_sosyal_medya_nobetcisi.py# Saat 09:00 bildirim ve yorum nöbetçisi
+│   ├── auto_poster.py                 # Otonom gönderi paylaşım motoru
+│   ├── comment_watcher.py             # Gelen yorum ve etkileşim gözlemcisi
+│   ├── autonomous_growth_radar.py     # Organik büyüme ve sniper etkileşim radarı
+│   ├── feedback_optimizer.py          # Sosyal medya geri bildirim optimizasyonu
+│   └── generate_post_card.py          # Otomatik sosyal medya görsel üretici
+├── data/                    # Sosyal medya hafıza ve operasyon kütükleri
+│   ├── gunluk_operasyon_plani.json    # Günlük sosyal medya içerik takvimi
+│   ├── sabah_sosyal_medya_raporu.json # 09:00 Teftiş kayıtları
+│   ├── sniper_campaign_queue.json     # Hedef etkileşim listesi
+│   └── etkilesim_ayarlari.json        # Platform bazlı kurallar ve filtreler
+├── deploy_vps/              # Docker ve Bulut VPS 7/24 barındırma dosyaları
 │   ├── Dockerfile
-│   └── run_vps.sh
-├── docs/                    # Detaylı mimari dokümanlar
+│   └── ertugrul-yz-finans.service
+├── docs/                    # Mimari dokümanlar
 │   └── README.md
-├── tools/                   # Yardımcı otomasyonlar ve tek tık başlatıcılar
+├── tools/                   # Hızlı başlatıcılar ve tek tık servisleri
 │   ├── Baslat.bat
-│   └── 7_24_Servisi_Kur.bat
-├── ui/                      # Siber tema analitik izleme paneli (Kokpit)
+│   └── 7_24_Servisi_Baslat.bat
+├── ui/                      # Siber tema sosyal medya kontrol paneli (Kokpit)
 │   └── index.html
-├── .gitignore               # Geçici ve hassas dosya filtresi
-└── requirements.txt         # Bağımlılık paketleri
+├── .gitignore               # Geçici ve log dosya filtresi
+└── requirements.txt         # Gereksinimler
 ```
 
 ---
 
 ## 🚀 Hızlı Başlangıç
 
-### 1. Gereksinimler
-- Python 3.10 veya üzeri
-- Windows 10/11 veya Linux/Ubuntu VPS
-
-### 2. Kurulum
+### 1. Kurulum
 ```bash
 # Projeyi klonlayın
-git clone https://github.com/ertugrul34660/ertugrul-yz-finans-analisti.git
-cd ertugrul-yz-finans-analisti
+git clone https://github.com/ertugrul34660/ertugrul-yz-sosyal-medya-ajani.git
+cd ertugrul-yz-sosyal-medya-ajani
 
 # Bağımlılıkları yükleyin
 pip install -r requirements.txt
 ```
 
-### 3. Çalıştırma
+### 2. Çalıştırma
 ```bash
-# Tek tık başlatıcı ile çalıştırma (Windows)
+# Windows tek tık başlatıcı
 tools\Baslat.bat
 
-# Veya Python üzerinden doğrudan otonom servisi ayağa kaldırma
+# Veya otonom nöbetçi servisini doğrudan başlatma
 python core/autonomous_247_service.py
 ```
-
----
-
-## ⚖️ Yasal Uyarı ve Sorumluluk Reddi Beyanı
-
-> **DİKKAT:** Bu yazılım ve içerisindeki algoritmalar tarafından üretilen tüm veri, seviye, yorum ve görsel analizler **kesinlikle yatırım danışmanlığı kapsamında DEĞİLDİR.**
-> 
-> Sermaye Piyasası Kurulu (SPK) mevzuatı uyarınca yatırım danışmanlığı hizmeti; aracı kurumlar, portföy yönetim şirketleri, mevduat kabul etmeyen bankalar ile müşteri arasında imzalanacak yatırım danışmanlığı sözleşmesi çerçevesinde sunulmaktadır. Burada paylaşılan tüm çıktılar yapay zeka tabanlı istatistiki ve algoritmik modelleme amaçlıdır.
 
 ---
 
@@ -118,4 +109,6 @@ python core/autonomous_247_service.py
 - **Kurucu & Yönetim:** Ertuğrul YZ Holding
 - **GitHub:** [@ertugrul34660](https://github.com/ertugrul34660)
 - **Resmi X (Twitter) Hesabı:** [@ertugrul_yz](https://x.com/ertugrul_yz)
+- **Instagram Hesabı:** `ertugrul.bey60`
+- **Facebook Hesabı:** `Ertuğrul Bey`
 - **Telif Hakkı:** © 2026 Ertuğrul YZ Ecosystem. Tüm hakları saklıdır.
